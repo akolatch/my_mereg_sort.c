@@ -50,7 +50,7 @@ void merge_a(int arr[], int l, int m, int r)
             lp++;
         }
     }
-    for (int j = l, k = 0; j < r + 1; j++, k++)
+    for (int j = l, k = 0; j <= r; j++, k++)
     {
         arr[j] = temp[k];
     }
@@ -106,7 +106,7 @@ void merge_d(int arr[], int l, int m, int r)
             lp++;
         }
     }
-    for (int j = l, k = 0; j < r + 1; j++, k++)
+    for (int j = l, k = 0; j <= r; j++, k++)
     {
         arr[j] = temp[k];
     }
